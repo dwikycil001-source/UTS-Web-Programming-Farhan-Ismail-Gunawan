@@ -1,0 +1,134 @@
+========================================================================================
+UTS WEB PROGRAMMING - PYTHON OOP & JSON
+Nama : Farhan Ismail Gunawan
+NIM  : 202504385
+========================================================================================
+
+========================================================================================
+LAPORAN DATA KARYAWAN
+========================================================================================
+Total karyawan       : 30
+Karyawan tetap       : 20
+Karyawan non-tetap   : 10
+Total estimasi gaji  : Rp270.305.000
+
+RINCIAN GAJI
+----------------------------------------------------------------------------------------
+ID         Nama                   Jenis             Gaji Pokok         Bonus           Total
+----------------------------------------------------------------------------------------
+EMP-001    Budi Pratama           Tetap            Rp8.500.000     Rp425.000     Rp8.925.000
+EMP-002    Siti Rahma             Non-tetap        Rp6.000.000           Rp0     Rp6.000.000
+EMP-003    Andi Wijaya            Tetap           Rp12.500.000           Rp0    Rp12.500.000
+EMP-004    Dewi Lestari           Tetap            Rp7.200.000     Rp360.000     Rp7.560.000
+EMP-005    Eko Prasetyo           Non-tetap        Rp5.500.000           Rp0     Rp5.500.000
+EMP-006    Fajar Nugraha          Tetap            Rp9.800.000     Rp980.000    Rp10.780.000
+EMP-007    Gita Gutawa            Non-tetap        Rp6.800.000           Rp0     Rp6.800.000
+EMP-008    Hendra Kurniawan       Tetap           Rp11.000.000     Rp550.000    Rp11.550.000
+EMP-009    Indah Permata          Tetap            Rp8.000.000           Rp0     Rp8.000.000
+EMP-010    Joko Widodo            Non-tetap        Rp5.000.000           Rp0     Rp5.000.000
+EMP-011    Kiki Amalia            Tetap            Rp7.700.000     Rp385.000     Rp8.085.000
+EMP-012    Lukman Hakim           Tetap           Rp13.500.000   Rp2.025.000    Rp15.525.000
+EMP-013    Maya Putri             Non-tetap        Rp6.200.000           Rp0     Rp6.200.000
+EMP-014    Nurdin Hasan           Tetap            Rp8.900.000           Rp0     Rp8.900.000
+EMP-015    Oki Setiana            Tetap            Rp9.500.000     Rp475.000     Rp9.975.000
+EMP-016    Panji Petualang        Non-tetap        Rp5.800.000           Rp0     Rp5.800.000
+EMP-017    Qory Sandioriva        Tetap           Rp10.500.000   Rp1.050.000    Rp11.550.000
+EMP-018    Rian D'Masiv           Tetap            Rp7.000.000           Rp0     Rp7.000.000
+EMP-019    Siska Kohl             Tetap           Rp14.000.000   Rp2.100.000    Rp16.100.000
+EMP-020    Tora Sudiro            Non-tetap        Rp6.400.000           Rp0     Rp6.400.000
+EMP-021    Uus Kartajaya          Tetap            Rp8.300.000     Rp415.000     Rp8.715.000
+EMP-022    Vina Panduwinata       Tetap            Rp9.100.000           Rp0     Rp9.100.000
+EMP-023    Wendra Pratama         Non-tetap        Rp5.300.000           Rp0     Rp5.300.000
+EMP-024    Xavier Marks           Tetap           Rp11.800.000   Rp1.180.000    Rp12.980.000
+EMP-025    Yuni Shara             Tetap            Rp7.600.000           Rp0     Rp7.600.000
+EMP-026    Zainal Abidin          Non-tetap        Rp6.500.000           Rp0     Rp6.500.000
+EMP-027    Ahmad Dhani            Tetap           Rp15.000.000   Rp2.250.000    Rp17.250.000
+EMP-028    Bella Saphira          Tetap            Rp8.200.000     Rp410.000     Rp8.610.000
+EMP-029    Cinta Laura            Tetap           Rp10.000.000           Rp0    Rp10.000.000
+EMP-030    Deddy Corbuzier        Non-tetap        Rp6.100.000           Rp0     Rp6.100.000
+
+Catatan: perhitungan bonus mengikuti asumsi demo yang dijelaskan di README.md.
+
+========================================================================================
+LAPORAN DATA SENSOR
+========================================================================================
+Total sensor         : 30
+Status NORMAL        : 11
+Status WARNING       : 4
+Status DANGER        : 15
+Status tidak cocok   : 0
+
+RINCIAN SENSOR
+----------------------------------------------------------------------------------------
+SNS-A01 | Boiler Room     |  88.5 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 101 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A02 | Assembly Line   |  42.0 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: 102 | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A03 | Server Room     |  95.2 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: Belum ditetapkan | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A04 | Chemical Lab    |  73.1 C | JSON: WARNING | Evaluasi: WARNING | Operator: 104 | SESUAI
+  -> Peringatan: suhu meningkat, perlu dipantau.
+SNS-A05 | Boiler Room     |  91.0 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 101 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A06 | Warehouse       |  31.5 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: Belum ditetapkan | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A07 | Turbine House   |  87.3 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 107 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A08 | Assembly Line   |  45.8 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: 102 | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A09 | Server Room     |  89.9 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 109 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A10 | Data Center     |  24.0 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: Belum ditetapkan | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A11 | Boiler Room     |  96.4 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 101 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A12 | Chemical Lab    |  68.0 C | JSON: WARNING | Evaluasi: WARNING | Operator: 104 | SESUAI
+  -> Peringatan: suhu meningkat, perlu dipantau.
+SNS-A13 | Turbine House   |  92.1 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: Belum ditetapkan | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A14 | Warehouse       |  29.8 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: 114 | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A15 | Server Room     |  86.0 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 109 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A16 | Assembly Line   |  41.2 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: 102 | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A17 | Boiler Room     |  99.5 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 101 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A18 | Data Center     |  22.5 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: Belum ditetapkan | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A19 | Turbine House   |  88.0 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 107 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A20 | Chemical Lab    |  75.4 C | JSON: WARNING | Evaluasi: WARNING | Operator: Belum ditetapkan | SESUAI
+  -> Peringatan: suhu meningkat, perlu dipantau.
+SNS-A21 | Boiler Room     |  90.2 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 101 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A22 | Assembly Line   |  39.9 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: 122 | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A23 | Server Room     |  93.7 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 109 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A24 | Warehouse       |  30.0 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: Belum ditetapkan | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A25 | Turbine House   |  87.8 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 107 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A26 | Data Center     |  25.1 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: 126 | SESUAI
+  -> Suhu berada pada rentang normal.
+SNS-A27 | Boiler Room     |  97.0 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: Belum ditetapkan | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A28 | Chemical Lab    |  71.3 C | JSON: WARNING | Evaluasi: WARNING | Operator: 104 | SESUAI
+  -> Peringatan: suhu meningkat, perlu dipantau.
+SNS-A29 | Server Room     |  85.5 C | JSON: DANGER  | Evaluasi: DANGER  | Operator: 109 | SESUAI
+  -> BAHAYA: suhu tinggi, segera periksa kondisi lokasi.
+SNS-A30 | Assembly Line   |  43.5 C | JSON: NORMAL  | Evaluasi: NORMAL  | Operator: Belum ditetapkan | SESUAI
+  -> Suhu berada pada rentang normal.
+
+Sensor tanpa operator: 9
+SNS-A03, SNS-A06, SNS-A10, SNS-A13, SNS-A18, SNS-A20, SNS-A24, SNS-A27, SNS-A30
+
+========================================================================================
+PENERAPAN KONSEP OOP
+========================================================================================
+1. Class dan Object : Employee, PermanentEmployee, ContractEmployee, dan class sensor.
+2. Inheritance      : class turunan mewarisi atribut/method class induk.
+3. Polymorphism     : calculate_salary() dan status_message() dipanggil melalui objek berbeda.
+4. Override         : class turunan mengimplementasikan ulang method dari class induk.
+5. Rule             : aturan bonus demo dan evaluasi suhu; detail asumsi ada di README.md.
